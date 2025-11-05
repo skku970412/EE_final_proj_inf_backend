@@ -1,4 +1,4 @@
-# Byte-compiled / optimized files
+# Python bytecode
 __pycache__/
 *.py[cod]
 *$py.class
@@ -7,34 +7,27 @@ __pycache__/
 venv/
 .venv/
 
-# Python packaging / cache artifacts
+# Build/test artifacts
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
 .hypothesis/
 pip-wheel-metadata/
 
-# Logs and run outputs
-*.log
-/run_all.log
-/ai.log
+# Logs generated locally
+ai.log
+run_all.log
 
 # Environment overrides
-*.env
+.env
 .env.*
 
 # Jupyter
 .ipynb_checkpoints/
 
-# IDE / editor junk
+# IDE / editor settings
 .vscode/
 .idea/
-
-# Large model files (track manually if needed)
-*.onnx
-*.pt
-*.pth
-*.ckpt
 
 # OS metadata
 .DS_Store
